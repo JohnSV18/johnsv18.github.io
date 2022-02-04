@@ -1,0 +1,23 @@
+.navbar{
+    background-color: #7E846B;
+}
+.my-bio{
+    background-color: #2F2504;
+    color: #D0DDD7;
+}
+body {
+    background-color: #2F2504;
+}
+.projects{
+    background-color: #594E36;
+    color: #D0DDD7;
+}
+.card{
+    background-color: #7E846B;
+    color: #D0DDD7
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }

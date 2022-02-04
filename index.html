@@ -5,41 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>John Marcos Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active mt-3" aria-current="page" href="https://www.linkedin.com/in/john-marcos-sag/">
+                <a class="nav-link active mt-3" aria-current="page" href="https://www.linkedin.com/in/john-marcos-sag/" style="color:#D0DDD7;">
                   <img src="/assets/linkedin.svg" width="30" height="24">LinkedIn</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active mt-3" href="https://github.com/JohnSV18">
+                <a class="nav-link active mt-3" href="https://github.com/JohnSV18" style="color:#D0DDD7;">
                   <img src="/assets/github.svg" width="30" height="24">Github</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active mt-3" href="https://medium.com/@john.saguay_64930">
+                <a class="nav-link active mt-3" href="https://medium.com/@john.saguay_64930" style="color:#D0DDD7;">
                     <img src="/assets/book.svg" width="30" height="24">Blog Posts</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    <div class="row justify-content-center mt-5">
+    <div class="row justify-content-center mt-5 my-bio">
         <div class="jumbotron col-8">
             <h1 class="display-4">John Marcos Saguay</h1>
             <p class="lead">I am a Software Engineer with a concentration in back-end web development.</p>
             <hr class="my-4">
             <p>Eager & motivated to work on and create products that help others</p>
-            <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </p>
         </div>
     </div>
+    
+    <div class="row justify-content-center projects">
+      <div class="row text-center m-4">
+        <h2>Projects</h2>
+      </div>
+      <div class="card col-4">
+        <img src="/assets/sky_falling.png" class="card-img-top" height="350" width="500" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sky is Falling Game</h5>
+          <p class="card-text">A game created using pygame, where a player can move from side to side in attempt to catch the balls falling from above!
+            If you reach your target score before losing all your lives, you win!
+          </p>
+          <div class="row">
+            <div class="col-4 ml-auto">
+              <a href="https://github.com/JohnSV18/sky-is-falling-game" style="color:#D0DDD7;" class="btn btn-link">Github</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="card col-4">
+        <img src="/assets/pay_on_track.png" class="card-img-top" height="350" width="500" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pay On Track</h5>
+          <p class="card-text">This is a site that you can use to better organize your finances by tracking adding your personal bills and/or debt payments into a single place.</p>
+          <div class="row">
+            <div class="col-4 ml-auto">
+              <a href="https://github.com/JohnSV18/pay_on_track"style="color:#D0DDD7;" class="btn btn-link">Github</a>
+              <a href="https://pay-on-track.herokuapp.com/" style="color:#D0DDD7;" class="btn btn-link">Live Link</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row justify-content-center">
+      <div class="card col-4">
+        <img src="/assets/sky_falling.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card col-4">
+        <img src="/assets/sky_falling.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
